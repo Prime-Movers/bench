@@ -1,11 +1,9 @@
 extends Button
 
-var exe_link = ""
-var pck_linhk = ""
-var version_link = ""
+var exe_link = "https://onedrive.live.com/download?cid=A5DCFF7CEA0F109A&resid=A5DCFF7CEA0F109A%21362&authkey=AF2id3WzAanXPyk"
+var version_link = "https://onedrive.live.com/download?cid=A5DCFF7CEA0F109A&resid=A5DCFF7CEA0F109A%21361&authkey=ANuoTFKcet_wR2Q"
 
-var exe_path = "user://myGame.exe"
-var pck_path = "user://myGame.pck"
+var exe_path = "user://bench_install.exe"
 var version_path = "user://version.txt"
 
 
@@ -21,12 +19,12 @@ func file_exists(path:String)->bool:
 
 func _verify_gamefiles():
 	
-	if(file_exists(exe_path) && file_exists(pck_path) && file_exists(version_path)):
+	if(file_exists(exe_path) && file_exists(version_path)):
 		_download_file(version_link,version_path,true)
 	else:
 		_check_integrity()
 
-func _download_file(link:String,path:String,just_version:bool):
+func _download_file(link:String, path:String, just_version:bool):
 	http_request = HTTPRequest.new()
 	add_child(http_request)
 	
@@ -61,8 +59,6 @@ func _check_integrity():
 	
 	if !file_exists(version_path):
 		_download_file(version_link, version_path, false)
-		var dir = Directory.new()
-		dir.remove(pck_path)
 		print("no version")
 		return
 		
@@ -82,7 +78,7 @@ func _compare_version(new_version):
 
 
 func _start_game():
-	OS.shell_open(OS.get_user_data_dir() + "/myGame.exe")
+	OS.shell_open(OS.get_user_data_dir() + "/bench_install.exe")
 
 
 func _on_Button_pressed():
