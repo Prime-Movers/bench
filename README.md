@@ -14,7 +14,7 @@ Provide immediate feedback: Feedback is a crucial aspect of learning.
 Increase retention and transfer: Retention and transfer are important outcomes of learning
 
 ## Getting Started
-
+Welcome to Bench: Learn with Games. Here is a quick guide to help you get started.
 ### Dependencies
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
