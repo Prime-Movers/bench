@@ -1,9 +1,9 @@
 extends Button
 
-var exe_link = "https://onedrive.live.com/download?cid=A5DCFF7CEA0F109A&resid=A5DCFF7CEA0F109A%21362&authkey=AF2id3WzAanXPyk"
+var exe_link = "https://onedrive.live.com/download?cid=A5DCFF7CEA0F109A&resid=A5DCFF7CEA0F109A%21363&authkey=ABo3iwEbzc0-YYM"
 var version_link = "https://onedrive.live.com/download?cid=A5DCFF7CEA0F109A&resid=A5DCFF7CEA0F109A%21361&authkey=ANuoTFKcet_wR2Q"
 
-var exe_path = "user://bench_install.exe"
+var exe_path = "user://Escape_Room.exe"
 var version_path = "user://version.txt"
 
 
@@ -78,7 +78,7 @@ func _compare_version(new_version):
 
 
 func _start_game():
-	OS.shell_open(OS.get_user_data_dir() + "/bench_install.exe")
+	OS.shell_open(OS.get_user_data_dir() + "/Escape_Room.exe")
 
 
 func _on_Button_pressed():
