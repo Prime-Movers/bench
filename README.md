@@ -42,8 +42,7 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
-[@barathan76}(https://https://github.com/barathan76)
+@barathan76 https://github.com/barathan76
 
 
 ## Version History
