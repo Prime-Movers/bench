@@ -1,4 +1,4 @@
-# Game Based Learning on Primary Education
+# Bench - A Gamification System
 
 Game-based learning is an emerging field that combines the engaging and immersive qualities of games with the educational benefits of learning.
 By integrating game mechanics and elements into educational content, game-based learning systems can enhance student motivation, engagement, and learning outcomes.
