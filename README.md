@@ -26,23 +26,20 @@ Welcome to Bench: Learn with Games. Here is a quick guide to help you get starte
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Open Game Launcher
+* Game files will sync and click start game
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Clone the project files into your system.
+* Install unreal engine 4 and open the game files
+* Install godot and open the game launcher files
+
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+We will be available all the time to support and help. Pull a request for each issues you faced.
+
 
 ## Authors
 
