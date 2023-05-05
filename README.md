@@ -18,7 +18,11 @@ Welcome to Bench: Learn with Games. Here is a quick guide to help you get starte
 ### Dependencies
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Windows 10
+* Godot
+* Unreal engine 
+* Visual studio code
+
 
 ### Installing
 
@@ -43,6 +47,7 @@ command to run if program contains helper info
 ## Authors
 
 @barathan76 https://github.com/barathan76
+@d12b92002balaji https://github.com/d12b92002balaji
 
 
 ## Version History
