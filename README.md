@@ -48,7 +48,5 @@ We will be available all the time to support and help. Pull a request for each i
 
 
 ## Version History
-
-* 0.1
-    * Initial Release
+   * Initial Release
 
