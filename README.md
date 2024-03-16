@@ -1,4 +1,4 @@
-# Game Based Learning on Primary Education
+# Bench - A Gamification System
 
 Game-based learning is an emerging field that combines the engaging and immersive qualities of games with the educational benefits of learning.
 By integrating game mechanics and elements into educational content, game-based learning systems can enhance student motivation, engagement, and learning outcomes.
@@ -18,35 +18,35 @@ Welcome to Bench: Learn with Games. Here is a quick guide to help you get starte
 ### Dependencies
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Windows 10
+* Godot
+* Unreal engine 
+* Visual studio code
+
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Open Game Launcher
+* Game files will sync and click start game
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Clone the project files into your system.
+* Install unreal engine 4 and open the game files
+* Install godot and open the game launcher files
+
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+We will be available all the time to support and help. Pull a request for each issues you faced.
+
 
 ## Authors
 
 @barathan76 https://github.com/barathan76
+@d12b92002balaji https://github.com/d12b92002balaji
 
 
 ## Version History
-
-* 0.1
-    * Initial Release
+   * Initial Release
 
